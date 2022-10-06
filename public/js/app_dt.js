@@ -42,6 +42,9 @@ document.getElementById("click6").onclick = function() {
     });
 }
 
+document.getElementById("click10").onclick = function() {                                      document.querySelector('#content10').scrollIntoView({                                          behavior: 'smooth'                                                                    });                                                                                   }
+
+
 function to_top()
 {
     document.querySelector('#top').scrollIntoView({

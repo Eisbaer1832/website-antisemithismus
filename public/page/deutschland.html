@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antisemitismus</title>
-    <link rel="stylesheet" href="/public/css/style.css">
-    <link rel="stylesheet" href="/public/css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="/public/css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/nav.css">
 </head>
 <body style="background-color:#24273A">
 
     <nav id="top" class="navbar navbar-dark custome-nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Antisemitismus in Deutschland</a>
-          <a class="navbar-text" href="/public/page/credits.html">credits</a>
+          <a class="navbar-brand" href="../page/index.html">Antisemitismus in Deutschland</a>
+          <a class="navbar-text" href="../page/credits.html">credits</a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
           </div>
         </div>
@@ -24,17 +24,17 @@
         <div class="input-flex-container">
             <input id="click1" type="radio" name="timeline-dot" data-description="1910">
             <div class="dot-info" data-description="1910">
-                <span class="year">1910</span>
-                <span class="label">Lorem</span>
+                <span class="year">1933</span>
+                <span class="label">Erste antisemitistischen Gesetze</span>
             </div>
             <input id="click2" type="radio" name="timeline-dot" onclick="scrollIntoView2()" data-description="1920">
             <div class="dot-info" data-description="1920">
-                <span class="year">1920</span>
-                <span class="label">ipsum</span>
+                <span class="year">1935</span>
+                <span class="label">Juden dürfen keine großen Gruppen mehr bilden</span>
             </div>
             <input id="click3" type="radio" name="timeline-dot" data-description="1930" checked>
             <div class="dot-info" data-description="1930">
-                <span class="year">1930</span>
+                <span class="year"></span>
                 <span class="label">dolor</span>
             </div>
             <input id="click4" type="radio" name="timeline-dot" data-description="1940">
@@ -62,17 +62,14 @@
                 <span class="year">1980</span>
                 <span class="label">elit</span>
             </div>
-            <input id="click9" type="radio" name="timeline-dot" data-description="1990">
-            <div class="dot-info" data-description="1990">
-                <span class="year">1990</span>
-                <span class="label">sed</span>
+            <input id="click10" type="radio" name="timeline-dot" data-description="2022">
+            <div class="dot-info" data-description="2022">
+                <span class="year">2022</span>
+                <span class="label">Antisemitismus heute</span>
             </div>
-            <input id="click10" type="radio" name="timeline-dot" data-description="2000">
-            <div class="dot-info" data-description="2000">
-                <span class="year">2000</span>
-                <span class="label">do</span>
-            </div>
-            <div id="timeline-descriptions-wrapper">
+	    <input id="click11" type="radio" name="timeline-dot" data-description="1990">             <div class="dot-info" data-description="1990">
+                <span class="year">2022</span>                                                            <span class="label">Antisemitismus heute</span>                                       </div>
+	    <div id="timeline-descriptions-wrapper">
 
             </div>
         </div>
@@ -80,15 +77,15 @@
 
 
     <div id="content1" class="content_container">
-        <p>Lorem</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed augue lacinia, commodo dolor vitae, rutrum lectus. Aenean sed eros quis ante pellentesque blandit ac quis arcu. Aenean non ex euismod, venenatis augue in, euismod massa. Aliquam et faucibus ante. Donec semper scelerisque lorem, eu lobortis nulla sodales vitae. Maecenas massa nulla, porttitor vel tortor ornare, tempus pulvinar dui. Fusce augue risus, egestas eget fringilla at, vehicula id sem. Cras leo dolor, bibendum sit amet convallis eget, gravida faucibus risus. Aliquam erat volutpat. Mauris nibh nisi, pharetra et libero ac, efficitur dignissim ligula. Praesent dignissim, neque eget egestas luctus, est tellus tincidunt dolor, ut dictum ante metus in ante. Cras eu dolor fringilla, eleifend metus sed, eleifend nibh. </p>
-        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+        <p>Erste Einschränkung der jüdischen Rechte</p>
+        <p>Juden dürfen absofort nicht mehr in Sportvereine gehen. Außerdem dürfen sie nicht mehr als Beamte arbeiten.</p>
+	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
 
     <div id="content2" class="content_container">
-        <p>ipsum</p>
-        <p>Maecenas pellentesque malesuada gravida. Nam enim tellus, pellentesque non rhoncus porttitor, placerat a neque. Morbi congue nisl nec nibh viverra lobortis. In hac habitasse platea dictumst. Quisque lacinia urna posuere sem eleifend interdum. Nullam posuere porta libero, nec blandit nunc semper ac. Donec tempor in diam a elementum. Vivamus nec condimentum felis. Ut vitae consequat neque. </p>
-        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+        <p>Juden dürfen keine großen Gruppen mehr bilden.</p>
+        <p>Juden ist es nun verboten in großen Gruppen spazieren zu gehen oder Zeltlager zu veranstalten.</p>
+	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
 
     <div id="content3" class="content_container">
@@ -109,15 +106,20 @@
         <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
 
-    <div id="content6" class="content_container">
-        <p>consectetur</p>
-        <p>Nulla at dapibus diam. Aliquam at est accumsan, sodales magna nec, suscipit nibh. Morbi aliquet diam ac convallis imperdiet. Nam volutpat risus eu nulla hendrerit, id mollis urna mollis. Maecenas eu eros imperdiet, interdum lacus et, pellentesque lectus. Praesent pharetra nunc eu ornare gravida. Nulla facilisi. Maecenas quis elit sit amet elit cursus rhoncus. Phasellus in lectus lobortis, rhoncus sapien non, accumsan nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sollicitudin sem neque, sit amet bibendum sem sodales vitae. </p>
-        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
-    </div>
+    <div id="content10" class="content_container">
+        <p>Antisemitismus heute</p>
+	<p> Leider ist Antisemitismus auch heute noch stark verbreitet. Auch nach dem Ende der Herrschaft von Adolf Hitler, der die Juden verfolgt und umgebracht hat, gibt es einige Anhänger der Judenfeindlichkeit. Für dies lassen sich viele Beispiele finden, z.B. gab es im Juni 2020 eine Propaganda-Veranstaltung unter Jugendlichen, bei der zahlreiche jüdische Bücher verbrannt wurden, wie u.a. das Tagebuch der Anne Frank. 
+Allerdings bleiben Judenhass und verfassungsfeindliche Aussagen oft unentdeckt, da oft nur geheime Nachrichten, Codes und Andeutungen via Nachrichtendienst verschickt werden. Einige Täter werden jedoch trotzdem von Polizei und Verfassungsschutz gefasst. Diesen droht dann je nach Schwere der Straftat ein Bußgeld oder sogar eine Haftstrafe. 
+Auch einige Parteien enthalten antisemitistische Argumentationsmuster, mit denen es eine sogar in den Bundestag geschafft hat. Somit kann man an diesem Beispiel gut sehen, wie viele Rechtsradikale sich an solchen Mustern orientieren und diese für gut befinden. Dies liegt vielleicht auch an mangelnder Aufklärung, da viele Anhänger des Antisemitismus den Holocaust verharmlosen und sogar leugnen.
+Diese „Holocaustleugner“ treten heute noch vielfach auf. Vor allem ehemalige Kriegsverbrecher und Anhänger des Nationalsozialismus schildern jüngeren Kameraden in Vorträgen, wie die NS-Zeit ihrer Meinung nach abgelaufen ist. In diesen „Vorträgen“ wird der Massenmord an den Juden geleugnet, somit wird massive Volksverhetzung betrieben.
+	Antisemitismus ist eben auch heute noch ein großes Problem, dass vermutlich nur mit Aufklärung und viel Geduld zu lösen ist. 
+</p>
+	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+</div>
+    
 
-
-    <script src="/public/js/jquery.js"> </script>
-    <script src="/public/js/bootstrap/bootstrap.min.js"></script>
-    <script src="/public/js/app_dt.js"></script>
+    <script src="../js/jquery.js"> </script>
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="../js/app_dt.js"></script>
 </body>
 </html>
