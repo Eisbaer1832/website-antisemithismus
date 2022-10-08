@@ -14,62 +14,114 @@
     <nav id="top" class="navbar navbar-dark custome-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="../page/index.html">Antisemitismus in Deutschland</a>
+          <button style=";" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Holocaust
+          </button> 
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Antisemitismus
+          </button>                         
           <a class="navbar-text" href="../page/credits.html">credits</a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
           </div>
         </div>
     </nav>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Holocaust</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div style="text-align:justify;" class="modal-body">
+                Holocaust: Der Begriff kommt aus dem Altgriechischen und bedeutet „völlig verbrannt“.  Dieser war der nationalistische Völkermord an 5,6 bis 6,3 Millionen Juden während des zweiten Weltkriegs. Deutsche und ihre Helfer hatten von 1941 bis 1945 das Ziel alle Juden im Reich zu töten und Europa judenfrei zu machen. In Israel und im Judentum wird das Verbrechen offiziell als Shoa (Katastrophe oder großen Unglück) bezeichnet. Seit 1985 wird dieses hebräische Wort auch in Europa verwendet.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Antisemitismus</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div style="text-align:justify;" class="modal-body">
+                Ein Begriff für alle Formen von Judenhass, Judenfeindlichkeit oder Judenfeindschaft.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      
+      
+      
     <div class="flex-parent">
         <div class="input-flex-container">
             <input id="click1" type="radio" name="timeline-dot" data-description="1910">
             <div class="dot-info" data-description="1910">
                 <span class="year">1933</span>
-                <span class="label">Erste antisemitistischen Gesetze</span>
+                <span class="label">Machtergreifung</span>
             </div>
-            <input id="click2" type="radio" name="timeline-dot" onclick="scrollIntoView2()" data-description="1920">
+            <input id="click2" type="radio" name="timeline-dot" data-description="1940">
+            <div class="dot-info" data-description="1940">
+                <span class="year">1934</span>
+                <span class="label">Reichsfluchtsteuer</span>
+            </div>
+            <input id="click3" type="radio" name="timeline-dot" onclick="scrollIntoView2()" data-description="1920">
             <div class="dot-info" data-description="1920">
                 <span class="year">1935</span>
-                <span class="label">Juden dürfen keine großen Gruppen mehr bilden</span>
+                <span class="label">Gesetliche Ausgrenzung</span>
             </div>
-            <input id="click3" type="radio" name="timeline-dot" data-description="1930" checked>
+            <input id="click4" type="radio" name="timeline-dot" onclick="scrollIntoView2()" data-description="1920">
+            <div class="dot-info" data-description="1920">
+                <span class="year">1937</span>
+                <span class="label">Judenkartei</span>
+            </div>
+            <input id="click5" type="radio" name="timeline-dot" data-description="1930" checked>
             <div class="dot-info" data-description="1930">
-                <span class="year"></span>
-                <span class="label">dolor</span>
+                <span class="year">1938</span>
+                <span class="label">Reichskristallnacht</span>
             </div>
-            <input id="click4" type="radio" name="timeline-dot" data-description="1940">
-            <div class="dot-info" data-description="1940">
-                <span class="year">1940</span>
-                <span class="label">sit</span>
-            </div>
-            <input id="click5" type="radio" name="timeline-dot" data-description="1950">
+            <input id="click6" type="radio" name="timeline-dot" data-description="1950">
             <div class="dot-info" data-description="1950">
-                <span class="year">1950</span>
-                <span class="label">amet</span>
+                <span class="year">1940</span>
+                <span class="label">Judenstern</span>
             </div>
-            <input id="click6" type="radio" name="timeline-dot" data-description="1960">
+            <input id="click7" type="radio" name="timeline-dot" data-description="1950">
+            <div class="dot-info" data-description="1950">
+                <span class="year">1941</span>
+                <span class="label">Erlass Auswanderung</span>
+            </div>
+            <input id="click8" type="radio" name="timeline-dot" data-description="1960">
             <div class="dot-info" data-description="1960">
-                <span class="year">1960</span>
-                <span class="label">consectetur</span>
+                <span class="year">1942</span>
+                <span class="label">Wannsee-Konferenz</span>
             </div>
-            <input id="click7" type="radio" name="timeline-dot" data-description="1970">
+            <input id="click9" type="radio" name="timeline-dot" data-description="1970">
             <div class="dot-info" data-description="1970">
-                <span class="year">1970</span>
-                <span class="label">adipiscing</span>
+                <span class="year">1945</span>
+                <span class="label">Befreiung Auschwitz</span>
             </div>
-            <input id="click8" type="radio" name="timeline-dot" data-description="1980">
+            <input id="click10" type="radio" name="timeline-dot" data-description="1980">
             <div class="dot-info" data-description="1980">
-                <span class="year">1980</span>
-                <span class="label">elit</span>
+                <span class="year">1945-2022</span>
+                <span class="label">Anschläge auf Juden</span>
             </div>
-            <input id="click10" type="radio" name="timeline-dot" data-description="2022">
+            <input id="click11" type="radio" name="timeline-dot" data-description="2022">
             <div class="dot-info" data-description="2022">
                 <span class="year">2022</span>
                 <span class="label">Antisemitismus heute</span>
             </div>
-	    <input id="click11" type="radio" name="timeline-dot" data-description="1990">             <div class="dot-info" data-description="1990">
-                <span class="year">2022</span>                                                            <span class="label">Antisemitismus heute</span>                                       </div>
-	    <div id="timeline-descriptions-wrapper">
+	   	    <div id="timeline-descriptions-wrapper">
 
             </div>
         </div>
@@ -77,37 +129,69 @@
 
 
     <div id="content1" class="content_container">
-        <p>Erste Einschränkung der jüdischen Rechte</p>
-        <p>Juden dürfen absofort nicht mehr in Sportvereine gehen. Außerdem dürfen sie nicht mehr als Beamte arbeiten.</p>
+        <h3>Machtergreifung</h4>
+        <p>Machtantritt Hitlers am 30. Januar:</p>
+        <p>Juden dürfen absofort nicht mehr in Sportvereine gehen. Außerdem dürfen sie nicht mehr als Beamte arbeiten. Ab dem 1. April (Judenboykott) wird die Bevölkerung aufgefordert, alle jüdischen Geschäfte, Banken, Praxen usw. zu boykottieren. Außerdem entstehen erste Konzentrationslager für politische Gegner. </p>
 	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
-
     <div id="content2" class="content_container">
-        <p>Juden dürfen keine großen Gruppen mehr bilden.</p>
-        <p>Juden ist es nun verboten in großen Gruppen spazieren zu gehen oder Zeltlager zu veranstalten.</p>
+        <h3>Reichsfluchtsteuer</h3>
+        <p>Die Vermögensgrenzen wurden von 2000 Reichsmark auf 50000 Reichsmark heruntergesetzt. Die Steuer betrifft jetzt hauptsächlich die Juden, die auf Grund von Gewalt oder Beschäftigungsverbot ihr Heimatland verlassen müssen.</p>
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+    <div id="content3" class="content_container">
+        <h3>Juden dürfen keine großen Gruppen mehr bilden.</h3>
+        <p >Juden ist es nun verboten in großen Gruppen spazieren zu gehen oder Zeltlager zu veranstalten.</p>
+        <p>Nürnberger Gesetze: Gesetz zum Schutz des deutschen Blutes und der deutschen Ehre: Juden und nicht Juden dürfen nicht heiraten und dürfen auch keinen außerehelichen Geschlechtsverkehr haben. Die Juden durften auch das Hakenkreuz nicht zeigen.</p>
+        <p>Reichsbürgergesetz: Das deutsche Volk wurde in Klassen geteilt. Nur die „Reichsbürger“ hatten alle politischen Rechte.</p>
 	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
-
-    <div id="content3" class="content_container">
-        <p>dolor</p>
-        <p>Vestibulum sed ornare neque. Proin consectetur ultrices neque, sed commodo magna. Duis aliquet vel nulla et sagittis. Etiam leo lectus, dictum eu ullamcorper ultrices, mattis sed quam. Suspendisse porttitor nulla vel turpis consequat pulvinar. Phasellus consectetur risus quam, in molestie urna maximus sed. Fusce cursus mi eget interdum auctor. Nunc quis facilisis purus. Curabitur pharetra nulla massa, a congue orci elementum et. Phasellus a lacus posuere, gravida leo sed, facilisis nunc. Sed finibus metus ac sagittis aliquam. Nunc sit amet sodales ante. Proin aliquam odio eget odio porttitor dapibus. Quisque sollicitudin nec libero vitae ornare. Etiam pharetra libero eu mi facilisis luctus. Quisque fringilla sed nisl sed consequat. </p>
-        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
-    </div>
-
     <div id="content4" class="content_container">
-        <p>sit</p>
-        <p>Donec congue dolor ullamcorper nibh dignissim porta. Aliquam erat volutpat. Nunc id aliquet ipsum. Proin cursus feugiat pretium. Praesent rhoncus egestas laoreet. Aliquam tristique urna enim, ac mattis est vulputate sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet sapien lacinia velit auctor sodales. Cras venenatis leo eget lorem ornare vestibulum. Sed nec lorem lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur placerat lobortis volutpat. Aliquam sed lectus enim. Etiam quis felis finibus, sollicitudin nisi sit amet, dictum nulla. Donec sit amet neque orci. Integer dapibus sapien orci, a sodales neque elementum vel. </p>
+        <h3>Judenkartei</h3>
+        <p>Der SS-Sicherheitsdienst und die Geheime Staatspolizei (Gestapo) legen eine detaillierte Judenkartei an.</p>
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+    <div id="content5" class="content_container">
+        <h3>Reichskristallnacht</h3>
+        <p>Am 9. November werden in ganz Deutschland Synagogen und Versammlungsräume von SA-Trupps niedergebrannt. Jüdische Geschäfte, Wohnungen und Friedhöfe wurden zerstört.</p>
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+    <div id="content6" class="content_container">
+        <h3>Judenstern</h3>
+        <p>Alle Juden müssen als Zeichen der Ausgrenzung den "Judenstern" tragen. Am 31. Juli erteilt Reichsmarschall Göring den Auftrag zur "Endlösung der Judenfrage", das heißt den Völkermord an den europäischen Juden.</p>
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+    <div id="content7" class="content_container">
+        <h3>Erlass Auswanderung</h3>
+        <p>Am 18. Oktober wurde per Erlass von Heinrich Himmler allen Juden die Genehmigung zur Auswanderung untersagt. Die Massendeportation deutscher Juden in den Osten beginnt. Diese Transporte wurden zunächst als "Umsiedlungen" bezeichnet.</p>
         <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
 
-    <div id="content5" class="content_container">
-        <p>amet</p>
-        <p>Vivamus in sem bibendum, posuere metus a, ornare tortor. Curabitur maximus id ipsum a fermentum. Cras eu purus sit amet odio scelerisque lacinia quis nec massa. Phasellus viverra urna luctus, facilisis est at, molestie turpis. Mauris sit amet pharetra lectus. Nullam accumsan nulla non mi aliquet elementum. Integer volutpat pretium mi vel efficitur. Integer molestie ut dui id lobortis. Fusce semper eros sit amet nisl semper, quis convallis tortor posuere. Donec lacus lectus, cursus ac justo eu, finibus pretium arcu. Curabitur efficitur dolor vitae elit hendrerit gravida eget ac nulla. Maecenas convallis enim ac nibh suscipit, id vulputate nulla consequat. Nulla mauris ligula, gravida sed lobortis eu, hendrerit quis purus. </p>
+    <div id="content8" class="content_container">
+        <h3>Wannsee-Konferenz</h3>
+        <p>Bei der Wannsee-Konferenz organisieren NS-Funktionäre die Deportation und Vernichtung der europäischen Juden. Außerdem musste die letzte jüdische Schule geschlossen werden.</p>
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+
+    <div id="content9" class="content_container">
+        <h3>Befreiung Auschwitz</h3>
+        <p>Am 27. Januar wurde das Konzentrationslager Auschwitz von den Soldaten der Roten Armee befreit. Über 1 Millionen Menschen haben die Nazis dort ermordet</p>
         <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
 
     <div id="content10" class="content_container">
-        <p>Antisemitismus heute</p>
+        <h3>Anschläge auf Juden</h3>
+        <p>In Deutschland wurden viele antisemitistische Straftaten begangen. Jüdische Menschen werden beleidigt, jüdische Friedhöfe verwüstet und Anschläge auf Synagogen verübt. u.a. :</p>
+        <p> · Olympia-Attentat: Angriff auf die israelische Manschafft in München (1972)</p>
+        <p> · Brandanschlag auf jüdische Ausstellung in der KZ Gedenkstädte Sachsenhausen (1992)</p>
+        <p> · Versuchter Massenmord in der Synagoge in Halle (2019)</p>        
+        <p> · Brandanschlag auf Synagoge in Ulm (2021)</p>
+        
+        <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    </div>
+
+    <div id="content11" class="content_container">
+        <h3>Antisemitismus heute</h3>
 	<p> Leider ist Antisemitismus auch heute noch stark verbreitet. Auch nach dem Ende der Herrschaft von Adolf Hitler, der die Juden verfolgt und umgebracht hat, gibt es einige Anhänger der Judenfeindlichkeit. Für dies lassen sich viele Beispiele finden, z.B. gab es im Juni 2020 eine Propaganda-Veranstaltung unter Jugendlichen, bei der zahlreiche jüdische Bücher verbrannt wurden, wie u.a. das Tagebuch der Anne Frank. 
 Allerdings bleiben Judenhass und verfassungsfeindliche Aussagen oft unentdeckt, da oft nur geheime Nachrichten, Codes und Andeutungen via Nachrichtendienst verschickt werden. Einige Täter werden jedoch trotzdem von Polizei und Verfassungsschutz gefasst. Diesen droht dann je nach Schwere der Straftat ein Bußgeld oder sogar eine Haftstrafe. 
 Auch einige Parteien enthalten antisemitistische Argumentationsmuster, mit denen es eine sogar in den Bundestag geschafft hat. Somit kann man an diesem Beispiel gut sehen, wie viele Rechtsradikale sich an solchen Mustern orientieren und diese für gut befinden. Dies liegt vielleicht auch an mangelnder Aufklärung, da viele Anhänger des Antisemitismus den Holocaust verharmlosen und sogar leugnen.

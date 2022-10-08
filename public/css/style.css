@@ -79,3 +79,7 @@ span {
     width: 60%;
     height: 50vh;
 }
+
+p {
+    text-align: justify;
+}
