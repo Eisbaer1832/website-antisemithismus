@@ -11,20 +11,37 @@
 </head>
 <body style="background-color:#24273A">
 
-    <nav id="top" class="navbar navbar-dark custome-nav">
-        <div class="container-fluid">
+    <nav id="top" class=" navbar navbar-expand-lg navbar-dark custome-nav">
+        <div class="container-fluid" >
           <a class="navbar-brand" href="../page/index.html">Antisemitismus in Deutschland</a>
-          <button style=";" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Holocaust
-          </button> 
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-            Antisemitismus
-          </button>                         
-          <a class="navbar-text" href="../page/credits.html">credits</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown" style="margin-right:5%;">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Begriffserkärung
+                    </button>
+                    <ul class="dropdown-menu">
+                        <button type="button" style="margin: 10%;" class="btn button2 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Holocaust
+                        </button> 
+                        <button type="button" style="margin: 10%;" class="btn button2 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            Antisemitismus
+                        </button>  
+                    </ul>
+            <li class="nav-item">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">    
+                        <a  class="btn btn-primary" href="../page/credits.html">credits</a>
+                    </li>        
+            </div>    
         </div>
     </nav>
+
+    
+
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -127,12 +144,11 @@
         </div>
     </div>
 
-
     <div id="content1" class="content_container">
         <h3>Machtergreifung</h4>
         <p>Machtantritt Hitlers am 30. Januar:</p>
         <p>Juden dürfen absofort nicht mehr in Sportvereine gehen. Außerdem dürfen sie nicht mehr als Beamte arbeiten. Ab dem 1. April (Judenboykott) wird die Bevölkerung aufgefordert, alle jüdischen Geschäfte, Banken, Praxen usw. zu boykottieren. Außerdem entstehen erste Konzentrationslager für politische Gegner. </p>
-	<button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
+    <button class="btn btn-primary button" onclick="to_top()" type="button">Zurück nach oben!</button>
     </div>
     <div id="content2" class="content_container">
         <h3>Reichsfluchtsteuer</h3>
@@ -203,6 +219,7 @@ Diese „Holocaustleugner“ treten heute noch vielfach auf. Vor allem ehemalige
     
 
     <script src="../js/jquery.js"> </script>
+    <script src="../js/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
     <script src="../js/app_dt.js"></script>
 </body>

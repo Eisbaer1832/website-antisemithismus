@@ -10,14 +10,73 @@
 </head>
 <body style="background-color:#24273A">
 
-  <nav id="top" class="navbar navbar-dark custome-nav">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/index.html">Antisemitismus</a>
-      <a class="navbar-text" href="/page/credits.html">credits</a>
+  <nav id="top" class=" navbar navbar-expand-lg navbar-dark custome-nav">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="../page/index.html">Antisemitismus</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown" style="margin-right:5%;">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Begriffserkärung
+                </button>
+                <ul class="dropdown-menu">
+                    <button type="button" style="margin: 10%;" class="btn button2 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Holocaust
+                    </button> 
+                    <button type="button" style="margin: 10%;" class="btn button2 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        Antisemitismus
+                    </button>  
+                </ul>
+        <li class="nav-item">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">    
+                    <a  class="btn btn-primary" href="../page/credits.html">credits</a>
+                </li>        
+        </div>    
+    </div>
+</nav>
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Holocaust</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div style="text-align:justify;" class="modal-body">
+            Holocaust: Der Begriff kommt aus dem Altgriechischen und bedeutet „völlig verbrannt“.  Dieser war der nationalistische Völkermord an 5,6 bis 6,3 Millionen Juden während des zweiten Weltkriegs. Deutsche und ihre Helfer hatten von 1941 bis 1945 das Ziel alle Juden im Reich zu töten und Europa judenfrei zu machen. In Israel und im Judentum wird das Verbrechen offiziell als Shoa (Katastrophe oder großen Unglück) bezeichnet. Seit 1985 wird dieses hebräische Wort auch in Europa verwendet.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-</nav>    
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Antisemitismus</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div style="text-align:justify;" class="modal-body">
+            Ein Begriff für alle Formen von Judenhass, Judenfeindlichkeit oder Judenfeindschaft.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
 
 
     
@@ -40,6 +99,7 @@
       </div>
 
     <script src="../js/jquery.js"> </script>
+    <script src="../js/popper.js"></script>
     <script src="../js/bootstrap/bootstrap.min.js"></script>
     <script src="../js/app.js"></script>
 </body>
