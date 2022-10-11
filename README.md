@@ -1,7 +1,7 @@
 # WEBSITE ANTISEMITISMUS
 
 # Screenshot
-![](../Assets/Screenshot.png)
+![](/public/Assets/Screenshot.png)
 
 
 ## Description
