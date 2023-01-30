@@ -88,3 +88,10 @@ p {
     width: 80%;
     height: 5vh;
 }
+
+.audio {
+    margin-top: 6rem;
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+}
